@@ -1,0 +1,75 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.app__title {
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+}
+
+.inputField {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.inputField input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 400px;
+  font-size: 16px;
+}
+
+.inputField button {
+  background-color: rgb(27, 137, 245);
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: none;
+  padding: 5px 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.itemsContainer {
+  min-height: 400px;
+  min-width: 490px;
+  background-color: white;
+  padding: 10px 20px;
+  margin-top: 60px;
+  border-radius: 5px;
+}
+
+.toDoItem {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  margin: 10px 0;
+}
+
+.toDoItem p {
+  font-size: 20px;
+}
+
+.toDoItem button {
+  background-color: rgb(211, 40, 40);
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
